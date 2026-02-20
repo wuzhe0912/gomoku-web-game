@@ -13,8 +13,9 @@
 
 | Repo | 說明 | 可見性 |
 |------|------|--------|
+| `gomoku-plan-docs` | 專案規劃、開發日誌 | Private |
 | `gomoku-client` | 前端：遊戲畫面、互動邏輯、AI 對戰 | Public |
-| `gomoku-server` | 後端：多人配對、房間管理、對戰同步 | Public |
+| `gomoku-server` | 後端：多人配對、房間管理、對戰同步 | Private |
 
 AI 第一版跑在 client 端（Web Worker），不需要獨立 repo。
 
